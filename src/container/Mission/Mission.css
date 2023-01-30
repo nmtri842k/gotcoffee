@@ -1,0 +1,26 @@
+.app__mission {
+    background: var(--color-black);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.app__wrapper_img .sumenh {
+    width: 400px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.button__mission {
+    padding: 0.5rem;
+}
+
+
+@media screen and (max-width:2000px) {}
+
+@media screen and (max-width:1240px) {}
+
+@media screen and (max-width:940px) {}
+
+@media screen and (max-width:650px) {}

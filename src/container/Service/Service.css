@@ -1,0 +1,41 @@
+.app__service {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.app__wrapper-service {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+
+}
+
+.p__service {
+    color: var(--color-golden);
+}
+
+.app__wrapper-father {
+    list-style: none;
+}
+
+.p__service-light {
+    font-size: 24px;
+    margin-top: 20px;
+    color: var(--color-golden);
+}
+
+@media screen and (max-width:2000px) {}
+
+
+@media screen and (max-width:1140px) {
+    .app__service {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+}
+
+@media screen and (max-width:650px) {}
