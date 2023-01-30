@@ -41,10 +41,7 @@
     letter-spacing: normal;
 }
 
-.app__wrapper_img .natural__items-quytrinhchebien {
-    height: auto;
-    width: auto;
-}
+
 
 .div__thugon {
     text-align: center;
@@ -61,6 +58,10 @@
         grid-row-gap: 10px;
     }
 
+    .app__wrapper_img .natural__items-quytrinhchebien {
+        height: 800px;
+        width: 800px;
+    }
 }
 
 
@@ -104,5 +105,11 @@
         max-height: 300px;
 
     }
+
+    .app__wrapper_img .natural__items-quytrinhchebien {
+        width: 200px;
+        height: 200px;
+    }
+
 
 }

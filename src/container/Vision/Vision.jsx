@@ -7,7 +7,7 @@ const Vision = ({ readVisionMore, readAboutMore }) => {
     return (
         <>
             {readVisionMore && readAboutMore &&
-                <div className='app__vision app__wrapper section__padding '>
+                <div className='app__vision app__wrapper section__padding' id='vision'>
                     <div className="app__wrapper_img">
                         <img className='tamnhin' src={images.tamnhin} alt="Tầm nhìn" />
                     </div>

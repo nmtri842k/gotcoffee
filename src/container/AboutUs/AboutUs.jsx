@@ -16,15 +16,11 @@ const AboutUs = ({ handleAboutClick, readAboutMore, handleNaturalClick, readNatu
           <img src={images.spoon} alt="spoon" className='spoon__img' />
           <p className="p__opensans">... Cuộc gặp bất ngờ giữa ngài MARCOS ON HUANSHEAU và anh BÙI THẾ GỐT – một nghệ nhân quốc tế và một người con bản địa. Với xuất phát điểm là niềm say mê bất tận, không chỉ dành cho hạt cà phê mà họ còn cùng nhau dấn thân cho những giá trị ổn định và bền vững</p>
           <button type='button' className='custom__button' onClick={handleAboutClick}>
-
-            {
+            <a href="#vision"> {
               !readAboutMore ? 'Xem thêm' : 'Rút gọn'
-            }
+            }</a>
           </button>
         </div>
-        {/* <div className="app__aboutus-content_knife flex__center">
-          <img src={images.begin} alt="May xay coffee" />
-        </div> */}
         <div className="app__aboutus-content_history">
           <h1 className="headtext__cormorant">Tìm về nguyên sinh</h1>
           <img src={images.spoon} alt="spoon" className='spoon__img' />
