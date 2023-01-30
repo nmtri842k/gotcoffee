@@ -52,7 +52,7 @@ const Barista = ({ readBaristaMore, readServiceMore }) => {
                                             • Máy này cho ra một ly coffee ngon với tỉ lệ hoàn hảo .
                                         </p>
                                         <p className="p__opensans natural__items-p">
-                                            • Với 18/g coffee sẽ cho ra khoảng +-36ml trong khoảng +-24s .
+                                            • Với 18/g coffee sẽ cho ra khoảng ± 36ml trong khoảng ± 24s .
                                         </p>
                                         {/* <p className="p__opensans natural__items-p">
                                         • Vệ sinh đồ dùng sau sơ chế.

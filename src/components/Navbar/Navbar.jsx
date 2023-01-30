@@ -94,8 +94,14 @@ const Navbar = () => {
                 <li className='p__opensans'>
                   <a href="#contact" onClick={() => setToggleMenu(false)} >Liên hệ</a>
                 </li>
+                <div className="newlogin">
+                  <a href="#login" className='p__opensans' onClick={handleLogin}>Đăng nhập</a>
+                  <div />
+                  <a href="#" className='p__opensans' onClick={handleOrder}>Đặt hàng</a>
+                </div>
               </ul>
             </div>
+
           )
 
         }
