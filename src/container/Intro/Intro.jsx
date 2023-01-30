@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs'
 import { meal } from '../../constants'
+import { vtv } from '../../constants'
 import './Intro.css';
 
 
@@ -19,12 +20,12 @@ const Intro = () => {
   return (
     <div className='app__video'>
       <video
-        src={meal}
+        src={vtv}
         ref={vidRef}
         type='video/mp4'
         loop
         controls={false}
-        muted
+      // muted
       />
       <div className="app__video-overlay flex__center">
         <div className="app__video-overlay_circle flex__center"
