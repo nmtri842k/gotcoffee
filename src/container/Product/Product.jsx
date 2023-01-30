@@ -2,10 +2,10 @@ import React from 'react'
 import { SubHeading } from '../../components';
 import { images, data } from '../../constants'
 import './Product.css'
-const Product = ({ readProductMore }) => {
+const Product = ({ readProductMore, readAboutMore }) => {
     return (
         <>
-            {readProductMore &&
+            {readProductMore && readAboutMore &&
                 <div>
                     <div className='app__bg app__product app__wrapper section__padding'>
                         <div className="app__wrapper_img app__wrapper_img-reverse">
