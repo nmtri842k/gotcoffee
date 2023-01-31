@@ -6,6 +6,10 @@
     background-attachment: fixed;
 }
 
+.app__wrapper_img img {
+    width: 400px;
+}
+
 .app__wrapper_img .sumenh {
     max-width: 400px;
     border-radius: 4px;
