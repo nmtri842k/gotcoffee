@@ -46,7 +46,7 @@ const Natural = ({ readNaturalMore, handleProcessClick, handleNaturalClick, read
                                     </div>
                                     <div>
                                         <SubHeading title='Thu hái & Sơ Chế' active />
-                                        <p className="p__opensans">• Thu hái tinh chọn bằng tay. Hạt chín đến 100%.
+                                        <p className="p__opensans natural__items-p">• Thu hái tinh chọn bằng tay. Hạt chín đến 100%.
                                         </p>
                                         <p className="p__opensans natural__items-p">
                                             • Dùng khay lọc hạt đồng size, đồng vị.
