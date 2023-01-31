@@ -27,4 +27,8 @@
 
 @media screen and (max-width:940px) {}
 
-@media screen and (max-width:650px) {}
+@media screen and (max-width:650px) {
+    .app__wrapper_img .sumenh {
+        width: 300px;
+    }
+}
