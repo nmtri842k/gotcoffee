@@ -31,45 +31,45 @@ const wines = [
 const coffee = [
   {
     title: 'GOT Bá Tước pha phin',
-    price: '$56',
-    tags: 'AU | Bottle',
+    price: '200k',
+    tags: '500g',
   },
   {
     title: 'GOT Bá Tước pha giấy',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    price: '300k',
+    tags: '500g',
   },
   {
     title: 'GOT Honey',
-    price: '$59',
-    tags: 'AU | Bottle',
+    price: '125k',
+    tags: '500g',
   },
   {
     title: 'GOT Barista',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    price: '125k',
+    tags: '500g',
   },
 ];
 const tea = [
   {
     title: 'GOT Bá Tước pha phin',
-    price: '$56',
-    tags: 'AU | Bottle',
+    price: '200k',
+    tags: '500g',
   },
   {
     title: 'GOT Bá Tước pha giấy',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    price: '300k',
+    tags: '500g',
   },
   {
     title: 'GOT Honey',
-    price: '$59',
-    tags: 'AU | Bottle',
+    price: '125k',
+    tags: '500g',
   },
   {
     title: 'GOT Barista',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    price: '125k',
+    tags: '500g',
   },
 ];
 

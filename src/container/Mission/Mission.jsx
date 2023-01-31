@@ -6,7 +6,7 @@ const Mission = ({ readVisionMore, handleProductClick, readAboutMore }) => {
     return (
         <>
             {readVisionMore && readAboutMore &&
-                <div className='app__mission app__wrapper section__padding'>
+                <div className='app__bg sapp__mission app__wrapper section__padding'>
                     <div className="app__wrapper-info">
                         <SubHeading title='Tầm nhìn và sứ mệnh ' />
                         <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>Sứ mệnh</h1>

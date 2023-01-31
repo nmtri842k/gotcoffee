@@ -1,12 +1,12 @@
 .app__mission {
-    background: var(--color-black);
+    /* background: var(--color-black); */
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
 }
 
-.app__wrapper_img img {
+.app__wrapper_img .sumenh {
     width: 400px;
 }
 
