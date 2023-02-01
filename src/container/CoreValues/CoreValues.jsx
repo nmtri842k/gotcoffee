@@ -23,7 +23,7 @@ const CoreValues = ({ readAboutMore, handleVisionClick, ...props }) => {
                     <div className="app__wrapper_img">
                         <img src={images.giatricotloi} alt="Giá trị cốt lõi" />
                     </div>
-                    <button className='custom__button' style={{ marginTop: '2rem' }} onClick={handleVisionClick}>Tầm nhìn</button>
+                    {/* <button className='custom__button' style={{ marginTop: '2rem' }} onClick={handleVisionClick}>Tầm nhìn</button> */}
                 </div>
             }
 

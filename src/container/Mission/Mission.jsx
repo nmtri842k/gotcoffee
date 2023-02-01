@@ -2,10 +2,10 @@ import React from 'react'
 import { SubHeading } from '../../components';
 import { images, data } from '../../constants'
 import './Mission.css'
-const Mission = ({ readVisionMore, handleProductClick, readAboutMore }) => {
+const Mission = ({ handleProductClick, readAboutMore }) => {
     return (
         <>
-            {readVisionMore && readAboutMore &&
+            {readAboutMore &&
                 <div className='app__bg sapp__mission app__wrapper section__padding'>
                     <div className="app__wrapper-info">
                         <SubHeading title='Tầm nhìn và sứ mệnh ' />

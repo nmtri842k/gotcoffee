@@ -41,7 +41,7 @@ const Barista = ({ readBaristaMore, readServiceMore }) => {
                                         02
                                     </div>
                                     <div className="app__wrapper_img ">
-                                        <img src={images.mayphacoffee} alt="Máy pha coffee" className='natural__items-img' />
+                                        <img src={images.phamay} alt="Máy pha coffee" className='natural__items-img' />
                                     </div>
                                     <div>
                                         <SubHeading title='Pha máy' active />

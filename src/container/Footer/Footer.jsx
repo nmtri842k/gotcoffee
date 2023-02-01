@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi'
+import { FiFacebook, FiTwitter, FiInstagram, FiPhone, FiPhoneCall } from 'react-icons/fi'
 import { FooterOverlay, Newsletter, SubHeading } from '../../components';
 import { images } from '../../constants'
 
@@ -25,8 +25,10 @@ const Footer = () => (
         <p className="p__opensans">"Cách tốt nhất để tìm thấy chính mình là đánh mất chính mình để phục vụ người khác.”</p>
         <SubHeading />
         <div className="app__footer-links_icons">
-          <FiFacebook color='#fff' />
-          <FiTwitter color='#fff' />
+          <a href="https://www.facebook.com/GOTcafe" target="_blank">
+            <FiFacebook color='#fff' />
+          </a>
+          <a href="tel:0975710614"> <FiPhone color='#fff' /></a>
           <FiInstagram color='#fff' />
         </div>
       </div>

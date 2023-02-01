@@ -62,7 +62,7 @@ const App = () => {
       <Header />
       <AboutUs handleAboutClick={handleAboutClick} readAboutMore={readAboutMore} handleNaturalClick={handleNaturalClick} readNaturalMore={readNaturalMore} />
       <CoreValues readAboutMore={readAboutMore} handleVisionClick={handleVisionClick} />
-      <Vision readVisionMore={readVisionMore} readAboutMore={readAboutMore} />
+      <Vision readAboutMore={readAboutMore} />
       <Mission readVisionMore={readVisionMore} handleProductClick={handleProductClick} readAboutMore={readAboutMore} />
       <Product readProductMore={readProductMore} readAboutMore={readAboutMore} />
       <SpecialMenu readProductMore={readProductMore} handleCompactClick={handleCompactClick} readAboutMore={readAboutMore} />

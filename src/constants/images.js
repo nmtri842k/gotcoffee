@@ -52,12 +52,14 @@ import cafephaphin from '../assets/cafephaphin.jpg';
 import cafephingiay from '../assets/cafephingiay.jpg';
 import mayphacoffee from '../assets/mayphacoffee.png';
 import phingiay1 from '../assets/phingiay1.png';
+import phamay from '../assets/phamay.png';
 import phaphin from '../assets/phaphin.jpg';
 import phingiay from '../assets/phingiay.jpg';
 
 
 export default {
   nhanrang,
+  phamay,
   phingiay,
   mayphacoffee,
   nhanrang1,

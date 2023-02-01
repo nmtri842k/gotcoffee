@@ -3,10 +3,10 @@ import { SubHeading } from '../../components';
 import { images, data } from '../../constants'
 import './Vision.css';
 
-const Vision = ({ readVisionMore, readAboutMore }) => {
+const Vision = ({ readAboutMore }) => {
     return (
         <>
-            {readVisionMore && readAboutMore &&
+            {readAboutMore &&
                 <div className='app__bg app__vision app__wrapper section__padding' id='vision'>
                     <div className="app__wrapper_img">
                         <img className='tamnhin' src={images.tamnhin} alt="Tầm nhìn" />
