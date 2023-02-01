@@ -37,8 +37,8 @@ const Newsletter = () => {
       });
     }
     else if (checkEmail(textInput)) {
-      Email.send({
-        SecureToken: "693d9df2-29ec-4f8f-a7c6-8888e642464b",
+      window.Email.send({
+        SecureToken: "f7234cf5-a6fd-437c-af36-e6ef06885cc2",
         // Host: "smtp.elasticemail.com",
         // Username: "nmtri842k@gmail.com",
         // Password: "B3101F338553178D40A0103E82FCB8A70A2E",
