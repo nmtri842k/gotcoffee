@@ -38,7 +38,7 @@ const Newsletter = () => {
     }
     else if (checkEmail(textInput)) {
       Email.send({
-        SecureToken: "70a5dc20-0f76-4f60-b3c2-e7b499c63b37",
+        SecureToken: "693d9df2-29ec-4f8f-a7c6-8888e642464b",
         // Host: "smtp.elasticemail.com",
         // Username: "nmtri842k@gmail.com",
         // Password: "B3101F338553178D40A0103E82FCB8A70A2E",
