@@ -28,7 +28,7 @@ const Footer = () => (
           <a href="https://www.facebook.com/GOTcafe" target="_blank">
             <FiFacebook color='#fff' />
           </a>
-          <a href="tel:0975710614"> <FiPhone color='#fff' /></a>
+          <a href="tel:0975710614"> <FiPhone color='#fff'/></a>
           <FiInstagram color='#fff' />
         </div>
       </div>
