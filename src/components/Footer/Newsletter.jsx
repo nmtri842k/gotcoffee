@@ -24,17 +24,6 @@ const Newsletter = () => {
   }
 
   const handleSubmit = () => {
-    const config = {
-      SecureToken: "67dc61aa-888c-4db4-84bd-8e424eebbdb4",
-      // Host: "smtp.elasticemail.com",
-      // Username: "nmtri842k@gmail.com",
-      // Password: "B3101F338553178D40A0103E82FCB8A70A2E",
-      // Port: 2525,
-      To: 'nmtri842k@gmail.com',
-      From: `${textInput}`,
-      Subject: "This is the subject",
-      Body: "And this is the body"
-    }
     if (textInput === '') {
       toast.error('Vui lòng điền đầy đủ thông tin', {
         position: "top-right",
@@ -49,18 +38,28 @@ const Newsletter = () => {
     }
     else if (checkEmail(textInput)) {
       if (window.Email) {
-        window.Email.sent(config)
+        window.Email.send({
+          SecureToken: "67dc61aa-888c-4db4-84bd-8e424eebbdb4",
+          // Host: "smtp.elasticemail.com",
+          // Username: "nmtri842k@gmail.com",
+          // Password: "B3101F338553178D40A0103E82FCB8A70A2E",
+          // Port: 2525,
+          To: 'nmtri842k@gmail.com',
+          From: `${textInput}`,
+          Subject: "This is the subject",
+          Body: "And this is the body"
+        })
       }
-      // toast.success(`Email của bạn là ${textInput}`, {
-      //   position: "top-right",
-      //   autoClose: 2000,
-      //   hideProgressBar: false,
-      //   closeOnClick: true,
-      //   pauseOnHover: true,
-      //   draggable: true,
-      //   progress: undefined,
-      //   theme: "light",
-      // });
+      toast.success(`Email của bạn là ${textInput}`, {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
     } else {
       toast.error('Email sai định dạng', {
         position: "top-right",
