@@ -39,12 +39,13 @@ const Newsletter = () => {
     else if (checkEmail(textInput)) {
       if (window.Email) {
         window.Email.send({
-          SecureToken: "f7234cf5-a6fd-437c-af36-e6ef06885cc2",
-          // Host: "smtp.elasticemail.com",
-          // Username: "nmtri842k@gmail.com",
-          // Password: "B3101F338553178D40A0103E82FCB8A70A2E",
-          // Port: 2525,
+          SecureToken: "42798a29-c424-4e16-8a74-3ac877963d1e",
+          Host: "smtp.elasticemail.com",
+          Username: "nmtri842k@gmail.com",
+          Password: "4F9406B500F8F2346CB2D3AEA29AA73EBB52",
+          Port: 2525,
           To: `${textInput}`,
+          // To: "devil.tri.no1@gmail.com",
           From: 'nmtri842k@gmail.com',
           Subject: "This is the subject",
           Body: "And this is the body"
