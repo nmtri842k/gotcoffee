@@ -37,26 +37,28 @@ const Newsletter = () => {
       });
     }
     else if (checkEmail(textInput)) {
-      window.Email.send({
-        SecureToken: "f7234cf5-a6fd-437c-af36-e6ef06885cc2",
-        // Host: "smtp.elasticemail.com",
-        // Username: "nmtri842k@gmail.com",
-        // Password: "B3101F338553178D40A0103E82FCB8A70A2E",
-        // Port: 2525,
-        To: 'nmtri842k@gmail.com',
-        From: `${textInput}`,
-        Subject: "This is the subject",
-        Body: "And this is the body"
-      }).then(() => toast.success(`Bạn đã gửi thành công với Email ${textInput}`, {
-        position: "top-right",
-        autoClose: 2000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-      }))
+      if (window.Email) {
+        window.Email.send({
+          SecureToken: "f7234cf5-a6fd-437c-af36-e6ef06885cc2",
+          // Host: "smtp.elasticemail.com",
+          // Username: "nmtri842k@gmail.com",
+          // Password: "B3101F338553178D40A0103E82FCB8A70A2E",
+          // Port: 2525,
+          To: `${textInput}`,
+          From: 'nmtri842k@gmail.com',
+          Subject: "This is the subject",
+          Body: "And this is the body"
+        }).then(() => toast.success(`Bạn đã gửi thành công với Email ${textInput}`, {
+          position: "top-right",
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        }))
+      }
     } else {
       toast.error('Email sai định dạng', {
         position: "top-right",
