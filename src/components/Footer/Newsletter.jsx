@@ -7,21 +7,19 @@ import emailjs from '@emailjs/browser';
 import './Newsletter.css';
 
 const Newsletter = () => {
-  const [textInput, setTextInput] = useState('')
+  // const [textInput, setTextInput] = useState('')
+  // const handleChange = (e) => {
+  //   setTextInput(e.target.value)
+  // }
 
-  const handleChange = (e) => {
-    setTextInput(e.target.value)
-  }
-
-
-  const checkEmail = (email) => {
-    let regexEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/
-    if (!regexEmail.test(email)) {
-      return false;
-    } else {
-      return true;
-    }
-  }
+  // const checkEmail = (email) => {
+  //   let regexEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/
+  //   if (!regexEmail.test(email)) {
+  //     return false;
+  //   } else {
+  //     return true;
+  //   }
+  // }
 
   // const handleSubmit = () => {
   //   if (textInput === '') {
@@ -95,8 +93,8 @@ const Newsletter = () => {
           });
         }
       );
-  };
 
+  };
 
   return (
     <div className='app__newsletter'>

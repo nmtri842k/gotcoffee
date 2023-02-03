@@ -55,10 +55,12 @@ import phingiay1 from '../assets/phingiay1.png';
 import phamay from '../assets/phamay.png';
 import phaphin from '../assets/phaphin.jpg';
 import phingiay from '../assets/phingiay.jpg';
+import hoptac1 from '../assets/hoptac1.jpg';
 
 
 export default {
   nhanrang,
+  hoptac1,
   phamay,
   phingiay,
   mayphacoffee,

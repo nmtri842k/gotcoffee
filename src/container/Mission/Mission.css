@@ -7,13 +7,14 @@
 }
 
 .app__wrapper_img .sumenh {
-    width: 400px;
+    width: 600px;
+    height: 400px;
 }
 
 .app__wrapper_img .sumenh {
-    max-width: 400px;
+    max-width: 600px;
     border-radius: 4px;
-    margin-right: 5px;
+    /* margin-right: 5px; */
 }
 
 .button__mission {
@@ -29,6 +30,7 @@
 
 @media screen and (max-width:650px) {
     .app__wrapper_img .sumenh {
-        width: 300px;
+        width: 400px;
+        height: 280px;
     }
 }

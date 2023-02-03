@@ -13,11 +13,11 @@ const Mission = ({ handleProductClick, readAboutMore }) => {
                         <ul className="app__wrapper-content">
                             <li className="app__wrapper-content_item"><p className="p__opensans"> GOT Specialty Coffee - truyền cảm hứng và
                                 nhận thức cho người dùng trẻ về một giá trị
-                                bản địa, tinh tuý, trọn vị và tròn hương. </p> </li>
+                                bản địa, tinh tuý, trọn vị và tròn hương. Và mong muốn sản phẩm của GOT sẽ được biết đến trên toàn thế giới. </p> </li>
                         </ul>
                     </div>
                     <div className="app__wrapper_img ">
-                        <img src={images.sumenh} className='sumenh' alt="Giá trị cốt lõi" />
+                        <img src={images.hoptac1} className='sumenh' alt="Giá trị cốt lõi" />
                     </div>
                     <button className='custom__button button__mission' style={{ margin: '2rem 0 0 2rem', width: '150px' }} onClick={handleProductClick} >Sản phẩm</button>
                 </div>
