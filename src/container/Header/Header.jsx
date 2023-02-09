@@ -3,7 +3,6 @@ import { SubHeading } from '../../components';
 import { images } from '../../constants'
 
 
-
 import './Header.css';
 
 const Header = () => (
